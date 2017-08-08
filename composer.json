@@ -3,6 +3,7 @@
     "description": "Biblioteca para composer que facilita a a leitura e trabalho com arquivos json.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Victor Aparecido Barbato Rossi",
@@ -10,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^5.3.3"
+        "php": "^5.3.2"
     },
     "autoload": {
         "psr-4": {
