@@ -1,21 +1,24 @@
 {
     "name": "victorap93/readjson",
-    "description": "Biblioteca para composer que facilita a a leitura e trabalho com arquivos json.",
-    "type": "library",
-    "license": "MIT",
-    "version": "1.0.4",
-    "authors": [
-        {
-            "name": "Victor Aparecido Barbato Rossi",
-            "email": "victorap93@gmail.com"
-        }
+    "description": "ReadJson makes it easy to read and work with json files.",
+    "keywords": [
+        "json"
     ],
+    "version": "2.0.0",
+    "license": "MIT",
     "require": {
         "php": ">=5.3.2"
     },
     "autoload": {
         "psr-4": {
-            "Victorap93\\": "src/"
+            "victorap93\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Victor Aparecido Barbato Rossi",
+            "email": "victorap93@gmail.com",
+            "homepage": "https://github.com/victorap93"
+        }
+    ]
 }
