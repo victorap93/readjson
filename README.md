@@ -1,12 +1,13 @@
-# ReadJson
+# Read Json
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![Latest Version](https://img.shields.io/github/release/victorap93/readjson.svg?style=flat-square)](https://github.com/victorap93/readjson/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/victorap93/readjson.svg?style=flat-square)](https://packagist.org/packages/victorap93/readjson)
 
-PowerBIEmbedded was created to facilitate the obtention of the necessary token to build its interface.
+Read Json makes it easy to read and work with json files.
 
 
-## Installing ReadJson
+## Installation
 
 The recommended way to install this is through
 [Composer](https://getcomposer.org/).
@@ -16,7 +17,7 @@ composer require victorap93/readjson
 ```
 
 
-## How to use ReadJson
+## How to use
 
 Assuming you have a *.json* file `./readjson/stores.json` with the following content.
 ```json 
@@ -85,4 +86,4 @@ $json_object_value5 = $ReadJson->accessRecursiveKeys($json_object_value4, [0, 'n
 
 ## License
 
-PowerBIEmbedded is made available under the MIT License (MIT). Please see [License File](LICENSE) for more information.
+Read Json is made available under the MIT License (MIT). Please see [License File](LICENSE) for more information.
